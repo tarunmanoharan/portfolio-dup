@@ -310,18 +310,6 @@ button:focus {
   }
 }
 
-.myAvtar {
-  justify-content: center !important;
-  align-items: center !important;
-  padding-top: 4em !important;
-}
-
-@media (max-width: 767px) {
-  .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
-  }
-}
 
 .home-about-section {
   position: relative;
@@ -533,7 +521,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgb(46,168,157)  !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }

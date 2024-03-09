@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
@@ -23,16 +21,16 @@ function Home2() {
       <Container>
         <Row>
 
-        <Col md={5} className="myAvtar">
+        {/* <Col md={5} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
+          </Col> */}
 
-          <Col md={6} className="home-about-social">
-            <h1>FIND ME ON</h1>
+          <Col md={12} className="home-about-social">
+            <h1 style={{color:"black" , fontSize:"35px"}}>FIND ME ON</h1>
             <p>
-              Feel free to <span className="green">connect </span>with me
+              Feel free to <span style={{color:"black" , fontSize:"18px"}}>connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

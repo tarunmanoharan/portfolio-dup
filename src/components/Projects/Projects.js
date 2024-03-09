@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import scribble from "../../Assets/Projects/Scribble.png"
 import smoothgulp from "../../Assets/Projects/Smoothgulp.png"
 
-function Projects() {
+function Projects({}) {
   return (
-    <Container fluid className="project-section" id="projects">
+    <Container fluid className="project-section" >
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="green">Works </strong>

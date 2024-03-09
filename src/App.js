@@ -20,6 +20,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [load, upadateLoad] = useState(true);
 
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -27,6 +28,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
 
   return (
     <Router>
@@ -38,7 +40,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/resume" element={<Resume  />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
