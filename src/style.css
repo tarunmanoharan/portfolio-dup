@@ -587,13 +587,13 @@ button:focus {
 
 @media (max-width: 767px) {
   .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
+    padding-right: 80px !important;
+    padding-left: 80px !important;
   }
 
   .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
+    padding-right: 80px !important;
+    padding-left: 80px !important;
   }
 }
 .resume .resume-title {
