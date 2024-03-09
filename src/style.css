@@ -578,22 +578,22 @@ button:focus {
 }
 
 .resume-left {
-  padding-right: 80px !important;
+  padding-right: 50px !important;
 }
 
 .resume-right {
-  padding-left: 80px !important;
+  padding-left: 50px !important;
 }
 
 @media (max-width: 767px) {
   .resume-left {
-    padding-right: 80px !important;
-    padding-left: 80px !important;
+    padding-right: 17px !important;
+    padding-left: 17px !important;
   }
 
   .resume-right {
-    padding-right: 80px !important;
-    padding-left: 80px !important;
+    padding-right: 17px !important;
+    padding-left: 17px !important;
   }
 }
 .resume .resume-title {
