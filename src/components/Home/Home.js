@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import tarunProfile from "../../Assets/tarun.jpg"
+import tarunProfile from "../../Assets/tarundp.jpg"
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -10,7 +10,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={6} className="home-header">
              
 
               <h1 className="heading-name">
@@ -22,7 +22,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20, textAlign:"center", alignItems:"center" }}>
+            <Col md={6} style={{ paddingBottom: 20, textAlign:"center", alignItems:"center" }}>
               <img
                 src={tarunProfile}
                 alt="home pic"

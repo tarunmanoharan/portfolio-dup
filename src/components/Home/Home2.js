@@ -21,12 +21,6 @@ function Home2() {
       <Container>
         <Row>
 
-        {/* <Col md={5} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col> */}
-
           <Col md={12} className="home-about-social">
             <h1 style={{color:"black" , fontSize:"35px"}}>FIND ME ON</h1>
             <p>

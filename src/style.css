@@ -521,7 +521,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgb(46,168,157)  !important;
+  box-shadow: 2px 3px 2px 1px rgb(46,168,157)  !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
