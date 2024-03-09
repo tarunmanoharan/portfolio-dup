@@ -467,7 +467,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgb(41,158,152) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -477,7 +477,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgb(46,168,157) !important;
 }
 
 
